@@ -24,6 +24,6 @@ export class MovieDetailPage implements OnInit {
     window.open("https://www.imdb.com/title/"+ this.movie.imdb_id);
   }
   openHomepage(){
-    window.open(this.movie.homepage)
+    window.open(this.movie.homepage);
   }
 }
